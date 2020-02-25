@@ -1,17 +1,3 @@
-/*function forLoop(array){
-  for(var i = 0; i < 35; i++){
-    array[i]= "I am " + i + " strange loops.";
-    if(i === 11){
-      array[i] = "I am 1 strange loop.";
-    }
-    if(i === 34){
-      array[i] = "I am 24 strange loops."
-    }
-  }
-  return array;
-}
-*/
-// use array.push
 function forLoop(array){
   for(var i = 0; i < 25; i++){
     if(i === 1){
@@ -32,7 +18,7 @@ function whileLoop(n) {
   return 'done';
 }
 
-/*function doWhileLoop(num){
+function doWhileLoop(num){
   do{
     console.log("I run once regardless")
   } while 
@@ -46,4 +32,3 @@ function incrementVariable() {
 
 var i = 0;
 var num = 10;
-*/
