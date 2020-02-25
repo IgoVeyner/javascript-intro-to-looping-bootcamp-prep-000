@@ -19,7 +19,7 @@ function whileLoop(n) {
 }
 
 var i = 0;
-var num = 10;
+var num = 11;
 
 function doWhileLoop(num){
   do{
