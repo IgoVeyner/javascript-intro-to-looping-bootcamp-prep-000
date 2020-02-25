@@ -24,12 +24,13 @@ var num = 11;
 function doWhileLoop(num){
   do{
     console.log("I run once regardless");
-    incrementVariable(i);
+    incrementVariable();
   } while (incrementVariable() < num);
 }
 
-function incrementVariable(i) {
+function incrementVariable() {
   i = i + 1;
+  console.log(i);
   return i;
 }
 
