@@ -18,7 +18,7 @@ function whileLoop(n) {
   return 'done';
 }
 
-var i = 0;
+var i = -1;
 var num = 11;
 
 function doWhileLoop(num){
